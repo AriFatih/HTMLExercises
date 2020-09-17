@@ -71,7 +71,44 @@ body {
   }
 }
 
-          img {
+          #circlerImage {
             border-radius: 50%;
             margin:  auto;
+          }
+
+          article {
+            position: relative;
+            left: 0%;
+            top: 75px 10px 20px 10px;
+            border-style: double;
+            width: 40%;
+          }
+
+          .column {
+            position: relative;
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 200px; 
+          }
+          
+          
+          .row:after {
+            position: relative;
+          
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+          }
+          .flex-container > article {           
+            
+            margin: 30px;
+            
           }
