@@ -8,6 +8,7 @@
 
 <form action="contact.html" method="post">
 
+  <div>
     <h3>Persönliche Daten</h3>
   <label for="titel"> Titel </label>
   <input type="text" id="title" name="title" placeholder="Dr. hc"><br><br>
@@ -30,20 +31,63 @@
   <input type="checkbox" id="french" name="french" value="French"> 
   <label for="Italian"> IT </label>
   <input type="checkbox" id="italian" name="italian" value="Italian"> <br><br>
-    <hr>
+  <hr>
+  </div>
 
+  <div>
+    <h3>Kontaktdaten</h3>
+  <label for="telefon"> Telefon </label>
+  <input type="tel" id="telefon" name="telefon" placeholder=""><br><br>
+  <label for="mobile"> Mobile </label>
+  <input type="tel" id="mobile" name="mobile" placeholder="optional"><br><br>
+  <label for="hauptnumber"> Hauptnummer </label>
+  <input type="tel" id="hauptnumber" name="hauptnumber" placeholder="optional"><br><br>
+  <label for="fax"> Fax </label>
+  <input type="tel" id="fax" name="fax" placeholder="optional"><br><br>
+  <label for="mail1"> Mail1 </label>
+  <input type="email" id="mail1" name="mail1" placeholder=""><br><br>
+  <label for="mail2"> Mail2 </label>
+  <input type="email" id="mail2" name="mail2" placeholder="optional"><br><br>
+  <hr>
+  </div>
 
+  <div>
+    <h3>Adressdaten</h3>
+  <label for="firma"> Firma </label>
+  <input type="text" id="firma" name="firma" placeholder=""><br><br>
+  <label for="zusatzfirma"> Zusatzfirma </label>
+  <input type="text" id="zusatzfirma" name="zusatzfirma" placeholder="optional"><br><br>
+  <label for="homepage"> Homepage </label>
+  <input type="text" id="homepage" name="homepage" placeholder="optional"><br><br>
+  
 
+  <label for="adresse"> Adresse /Haus Nr.</label>
+  <input type="text" id="adresse" name="adresse" placeholder="Musterstrasse">
  
-  <label for="plz"> PLZ /ORT </label><br><br>
-  <input type="number" id="plz" name="plz" placeholder="8850"><br>
+  <label for="Hausnummer"> </label>
+  <input type="number" id="hausnummer" name="hausnummer" placeholder="33"><br><br>
 
-  <label for="ort"> </label><br><br>
-  <input type="text" id="ort" name="ort" placeholder="Mustersdadt"><br>
+  <label for="zusatzadresse"> Zusatzadresse </label>
+  <input type="text" id="zusatzadresse" name="zusatzadresse" placeholder="optional"><br><br>
+
+  <label for="postfach"> Postfach </label>
+  <input type="number" id="postfach" name="postfach" placeholder="optional"><br><br>
+
+  <label for="plz"> PLZ /Ort </label>
+  <input type="number" id="plz" name="plz" placeholder="8850">
+
+  <label for="ort"> </label>
+  <input type="text" id="ort" name="ort" placeholder="Mustersdadt"><br><br>
  
-  <label for="kanton"> Kanton/Land</label><br><br>
-  <input type="text" id="kanton" name="kanton" placeholder="ZH"><br>
-  <input type="submit" value="Submit">
+  <label for="kanton"> Kanton/Land</label>
+  <input type="text" id="kanton" name="kanton" placeholder="ZH">
+  <label for="land"> </label>
+  <input type="text" id="land" name="land" placeholder="Schweiz"><br>
+  <hr>
+  </div>
+ 
+  
+  <input type="submit" value="Speichern">
 </form> 
 
 </body>
